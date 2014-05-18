@@ -1,0 +1,48 @@
+{
+  "name": "DigitalOceanCLI",
+  "description": "A Digital Ocean CLI tool",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonathan-fielding/DigitalOceanCLI",
+  "author": {
+    "name": "Jonathan Fielding",
+    "email": "j.fielding@me.com",
+    "url": "http://www.jonathanfielding.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jonathan-fielding@github.com/jonathan-fielding/DigitalOceanCLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathan-fielding/DigitalOceanCLI/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonathan-fielding/DigitalOceanCLI/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/DigitalOceanCLI",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.4"
+  },
+  "keywords": [],
+  "dependencies": {
+    "digitalocean": "^0.2.4",
+    "commander": "^2.2.0",
+    "q": "^1.0.1",
+    "inquirer": "^0.5.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "digitalocean": "lib/DigitalOceanCLI.js"
+  }
+}
