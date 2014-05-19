@@ -17,7 +17,7 @@ To use the tool you will need to setup the API, to do this go into your account 
 
 ##Commands
 
-There is a number of commands in progress for the Digital Ocean CLI, at the moment you we can only use the tool for creating new droplets.
+There is a number of commands in progress for the Digital Ocean CLI, so far we have the following functionality
 
 ###New Droplet
 To create a new droplet run the command
@@ -25,6 +25,13 @@ To create a new droplet run the command
 <pre><code>digitalocean --new</code></pre>
 
 You will then be asked a series of questions about your droplet
+
+###Add SSH Key
+To create a new ssh key run the command
+
+<pre><code>digitalocean --addkey</code></pre>
+
+You will then be asked to name your key and to select the key you want to upload, the tool will look in your user home directory .ssh folder for keys.
 
 ##Licence
 
