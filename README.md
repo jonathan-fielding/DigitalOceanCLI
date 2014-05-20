@@ -24,7 +24,7 @@ To create a new droplet run the command
 
 <pre><code>digitalocean --new</code></pre>
 
-You will then be asked a series of questions about your droplet
+You will then be asked a series of questions about your droplet, afterwards we will even tell you the cost per month so you don't have any nasty surprises at the end of the month
 
 ###Add SSH Key
 To create a new ssh key run the command
@@ -32,6 +32,20 @@ To create a new ssh key run the command
 <pre><code>digitalocean --addkey</code></pre>
 
 You will then be asked to name your key and to select the key you want to upload, the tool will look in your user home directory .ssh folder for keys.
+
+###Manage Droplet
+You can manage a droplet using the CLI, simply run
+
+<pre><code>digitalocean --manage</code></pre>
+
+You will then be asked to select the droplet you want to mange, once selected you can:
+
+* Power Off
+* Power On
+* Reboot
+* Destroy (be careful with this one)
+
+More commands coming soon
 
 ##Licence
 
