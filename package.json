@@ -1,7 +1,7 @@
 {
   "name": "digitaloceancli",
   "description": "A Digital Ocean CLI tool",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "homepage": "https://github.com/jonathan-fielding/DigitalOceanCLI",
   "author": {
     "name": "Jonathan Fielding",
@@ -40,8 +40,6 @@
     "commander": "^2.2.0",
     "q": "^1.0.1",
     "inquirer": "^0.5.0",
-    "node-sync": "0.0.8",
-    "fibers": "^1.0.1",
     "deasync": "0.0.7"
   },
   "preferGlobal": "true",
