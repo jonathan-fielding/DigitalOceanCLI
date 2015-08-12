@@ -36,11 +36,13 @@
   },
   "keywords": [],
   "dependencies": {
-    "digitalocean": "^0.2.4",
     "commander": "^2.2.0",
-    "q": "^1.0.1",
-    "inquirer": "^0.5.0",
-    "deasync": "0.0.7"
+    "deasync": "^0.1.0",
+    "do-wrapper": "^2.1.1",
+    "exec": "^0.2.1",
+    "inquirer": "^0.5.1",
+    "lodash": "^3.10.1",
+    "q": "^1.0.1"
   },
   "preferGlobal": "true",
   "bin": {
