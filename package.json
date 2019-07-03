@@ -26,7 +26,9 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "grunt nodeunit",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
@@ -42,10 +44,12 @@
     "exec": "^0.2.1",
     "inquirer": "^0.5.1",
     "lodash": "^3.10.1",
-    "q": "^1.0.1"
+    "q": "^1.0.1",
+    "snyk": "^1.189.0"
   },
   "preferGlobal": "true",
   "bin": {
     "digitalocean": "lib/index.js"
-  }
+  },
+  "snyk": true
 }
