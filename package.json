@@ -41,7 +41,7 @@
     "do-wrapper": "^2.1.1",
     "exec": "^0.2.1",
     "inquirer": "^0.5.1",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.19",
     "q": "^1.0.1"
   },
   "preferGlobal": "true",
